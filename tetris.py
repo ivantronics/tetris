@@ -293,8 +293,6 @@ def draw_window(surface, grid, score=0, last_score = 0):
     pygame.draw.rect(surface, (255, 0, 0), (top_left_x, top_left_y, play_width, play_height), 5)
 
     draw_grid(surface, grid)
-    #pygame.display.update()
-
 
 def main(win):  # *
     last_score = max_score()
